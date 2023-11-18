@@ -1,0 +1,19 @@
+.movies-table{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+
+  .app-search, .pagination, .app-table, .app-loading, .app-no-data{
+    padding: 20px;
+  }
+
+  .app-loading, .app-no-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
